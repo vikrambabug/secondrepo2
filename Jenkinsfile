@@ -5,6 +5,7 @@ pipeline {
            steps {
                 echo "Hi This is vikram"
                 sh 'mkdir firstdir'
+               sh 'date'
             }
 }
 }
