@@ -11,5 +11,10 @@ pipeline {
                sh 'whoami'
             }
 }
+        stage('stage2') {
+            steps{
+            echo 'this is stage2'
 }
+}
+    }
 }
