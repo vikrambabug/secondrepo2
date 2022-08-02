@@ -6,6 +6,7 @@ pipeline {
                 echo "Hi This is vikram"
                 sh 'mkdir firstdir'
                sh 'date'
+               sh 'whoami'
             }
 }
 }
