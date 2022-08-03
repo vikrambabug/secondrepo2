@@ -10,7 +10,7 @@ pipeline {
                  sh 'ls -lrt'
                 echo "Hi This is vikram"
                 echo "hello vikram how are you "
-                sh 'mkdir firstdir989'
+                sh 'mkdir firstdir99'
                 sh 'pwd'
                 sh 'ls -lrt'
                sh 'date'
