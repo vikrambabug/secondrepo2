@@ -4,7 +4,7 @@ pipeline {
         stage('stage1') {
            steps {
                 echo "Hi This is vikram"
-                sh 'mkdir firstdir6'
+                sh 'mkdir firstdir7'
                 sh 'pwd'
                 sh 'ls -lrt'
                sh 'date'
