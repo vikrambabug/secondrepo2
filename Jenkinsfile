@@ -3,8 +3,9 @@ pipeline {
     stages {
         stage('stage1') {
            steps {
+                 sh 'date'
                  sh 'ls -lrt'
-                 sh 'rm -rf *fir'
+                 sh 'rm -rf fir* '
                  sh 'pwd'
                  sh 'ls -lrt'
                 echo "Hi This is vikram"
@@ -35,6 +36,7 @@ pipeline {
          steps{
        echo 'thisis stage 3'
        echo 'hi hello'
+        sh 'date'
 }
 }
     }
