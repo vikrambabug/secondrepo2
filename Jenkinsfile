@@ -4,10 +4,12 @@ pipeline {
         stage('stage1') {
            steps {
                  sh 'ls -lrt'
-                 sh 'rm -rf *firs'
+                 sh 'rm -rf *fir'
+                 sh 'pwd'
+                 sh 'ls -lrt'
                 echo "Hi This is vikram"
                 echo "hello vikram how are you "
-                sh 'mkdir firstdir88'
+                sh 'mkdir firstdir89'
                 sh 'pwd'
                 sh 'ls -lrt'
                sh 'date'
