@@ -21,11 +21,18 @@ pipeline {
             echo 'this is step3'
     }
         }
-
+        
       stage('stage4') {
          steps{
            echo 'this is step4'
 }
 }
+       stage('stage5') { 
+         steps{
+       echo 'thisis stage 3'
+       echo 'hi hello'
+}
+}
     }
+
 }
